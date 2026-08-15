@@ -1,0 +1,7 @@
+{
+  "window_seconds": 2,
+  "stride_seconds": 1,
+  "noise_sigma": 0.0,
+  "seed": 42,
+  "noise_scope": "entire simulator cohort as measurement-condition sensitivity, not training augmentation"
+}
