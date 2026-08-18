@@ -1,0 +1,8 @@
+{
+  "window_size": 8,
+  "stride_size": 2,
+  "noise_sigma": 3.0,
+  "unit": "hours",
+  "seed": 42,
+  "interpretation": "validation-only simulation-condition sensitivity"
+}
