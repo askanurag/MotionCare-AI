@@ -1,0 +1,54 @@
+{
+  "model": "logistic",
+  "provenance": {
+    "data_sha256": "6c6ea3d4d69808d794538daff59fc7af87ad1238a8d877dbe0079f6a2e0b9d3e",
+    "seed": 42,
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "data_origin": "synthetic",
+    "clinical_validation": false
+  },
+  "validation": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "brier": 0.001381219746469339,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "tp": 6,
+    "tn": 10,
+    "fp": 0,
+    "fn": 0,
+    "n": 16,
+    "threshold": 0.1
+  },
+  "test": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "brier": 0.0016950128093508254,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "tp": 6,
+    "tn": 10,
+    "fp": 0,
+    "fn": 0,
+    "n": 16,
+    "threshold": 0.1
+  },
+  "split_sizes": {
+    "train": 48,
+    "validation": 16,
+    "test": 16
+  },
+  "domain_protocol": {
+    "description": "glucose traces and injected elevated states",
+    "window_size": 6,
+    "stride_size": 6,
+    "unit": "hours",
+    "patients": 10,
+    "clinical_validation": false,
+    "data_origin": "synthetic"
+  }
+}
