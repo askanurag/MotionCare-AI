@@ -1,0 +1,45 @@
+{
+  "patient_id": "Unique synthetic group identifier; never used as predictor",
+  "target": {
+    "name": "simulated_movement_class",
+    "meaning": "Bernoulli label sampled from documented simulator, not a confirmed clinical endpoint"
+  },
+  "features": [
+    {
+      "name": "accel_rms",
+      "unit": "arbitrary acceleration units",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "accel_variance",
+      "unit": "arbitrary variance units",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "jerk_rms",
+      "unit": "arbitrary jerk units",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "dominant_frequency",
+      "unit": "Hz (simulated)",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "gyro_rms",
+      "unit": "arbitrary gyro units",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "orientation_change",
+      "unit": "arbitrary angle units",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    }
+  ]
+}
