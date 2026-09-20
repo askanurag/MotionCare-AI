@@ -1,0 +1,8 @@
+{
+  "window_size": 14,
+  "stride_size": 1,
+  "noise_sigma": 0.25,
+  "unit": "days",
+  "seed": 42,
+  "interpretation": "validation-only simulation-condition sensitivity"
+}
