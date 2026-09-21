@@ -1,0 +1,45 @@
+{
+  "model": "logistic",
+  "provenance": {
+    "data_sha256": "c5d719e899f98c0d1751e95e845dee39148ff8eb4b49c4b434d11a0f24cc352f",
+    "seed": 42,
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "data_origin": "synthetic",
+    "clinical_validation": false
+  },
+  "validation": {
+    "auroc": 0.8740266963292548,
+    "average_precision": 0.8709340100976459,
+    "brier": 0.141940988608098,
+    "balanced_accuracy": 0.82119021134594,
+    "sensitivity": 0.9354838709677419,
+    "specificity": 0.7068965517241379,
+    "tp": 58,
+    "tn": 41,
+    "fp": 17,
+    "fn": 4,
+    "n": 120,
+    "threshold": 0.42000000000000004
+  },
+  "test": {
+    "auroc": 0.8670941416496649,
+    "average_precision": 0.8370187615367901,
+    "brier": 0.1623886831130785,
+    "balanced_accuracy": 0.7550276887204896,
+    "sensitivity": 0.8936170212765957,
+    "specificity": 0.6164383561643836,
+    "tp": 42,
+    "tn": 45,
+    "fp": 28,
+    "fn": 5,
+    "n": 120,
+    "threshold": 0.42000000000000004
+  },
+  "split_sizes": {
+    "train": 360,
+    "validation": 120,
+    "test": 120
+  }
+}
