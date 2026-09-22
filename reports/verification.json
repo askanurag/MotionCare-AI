@@ -1,0 +1,13 @@
+{
+  "project": "MotionCare_AI",
+  "files": 260,
+  "python_files": 97,
+  "notebooks": 45,
+  "unit_tests_passed": 39,
+  "tabular_experiments_run": 30,
+  "raw_signal_scenarios_run": 12,
+  "raw_signal_patients": 10,
+  "raw_signal_windows": 110,
+  "notebook_execution": "Sequential Python cell execution with captured stdout and rendered figures, not a Jupyter kernel",
+  "clinical_validation": false
+}
