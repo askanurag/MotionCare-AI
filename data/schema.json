@@ -1,0 +1,42 @@
+{
+  "slug": "MotionCare_AI",
+  "title": "MotionCare AI",
+  "task": "Synthetic wearable movement classification",
+  "features": [
+    "accel_rms",
+    "accel_variance",
+    "jerk_rms",
+    "dominant_frequency",
+    "gyro_rms",
+    "orientation_change"
+  ],
+  "means": [
+    1.0,
+    0.4,
+    0.5,
+    1.5,
+    0.3,
+    0.2
+  ],
+  "scales": [
+    0.3,
+    0.2,
+    0.25,
+    0.5,
+    0.15,
+    0.12
+  ],
+  "weights": [
+    0.6,
+    0.9,
+    1.1,
+    -0.3,
+    0.5,
+    0.6
+  ],
+  "label": "simulated_movement_class",
+  "domain": "wearable",
+  "description": "Extract inertial-signal features and compare classifiers for simulated smooth versus abrupt movement. This is not a clinically validated fall detector.",
+  "target": "simulated_movement_class",
+  "provenance": "synthetic mathematical simulator; not real clinical data"
+}
