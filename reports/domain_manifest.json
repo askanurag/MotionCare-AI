@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "file": "domain_record_001.csv",
+      "sha256": "ffd33362ceaee61f5839731e1cd76eb45355438a6e6a8649fbc62f9ebe0632d9",
+      "bytes": 61789
+    },
+    {
+      "file": "domain_record_002.csv",
+      "sha256": "f49e4aa562146a6ce7a3e1194bf17c41763dcda646d40373d0d1fd07e00f9e40",
+      "bytes": 61239
+    },
+    {
+      "file": "domain_record_003.csv",
+      "sha256": "014f3be450991ccac4872f6cc9e1d5a92b6b1e1fb198f96c6dd77deae766e9e3",
+      "bytes": 61839
+    },
+    {
+      "file": "domain_record_004.csv",
+      "sha256": "4f16c7addb4e39791860016a73a1e67b64ac30b6b0c5f0530792efcb8041f850",
+      "bytes": 61790
+    },
+    {
+      "file": "domain_record_005.csv",
+      "sha256": "cdb90a38abea6be360a2efc4cfb17c055e7faa49c28dcd798f088b9ddea4fa33",
+      "bytes": 61777
+    },
+    {
+      "file": "domain_record_006.csv",
+      "sha256": "898afd89d6be22f6725e774d459576e4a2afe62d14594c5160c9d6c14fa4e315",
+      "bytes": 60688
+    },
+    {
+      "file": "domain_record_007.csv",
+      "sha256": "5813872288387d08fe06c472a40bce03c0c939929a9a78c892c304ee76a033ba",
+      "bytes": 61779
+    },
+    {
+      "file": "domain_record_008.csv",
+      "sha256": "0cd43fef8060b079375791b126ff6baf46b02128da04333d721b456528666729",
+      "bytes": 61262
+    },
+    {
+      "file": "domain_record_009.csv",
+      "sha256": "0a7dfe51a8faf2b62423cca7108415d3527bb73415bdcc89e1bf068e4f797a3f",
+      "bytes": 61229
+    },
+    {
+      "file": "domain_record_010.csv",
+      "sha256": "358a3649c8b5926a0f8e67c1038c19a9c59a688ca2a625a38f840d3e596c3831",
+      "bytes": 61780
+    }
+  ],
+  "metadata": {
+    "task": "glucose traces and injected elevated states",
+    "features": [
+      "age",
+      "bmi",
+      "glucose",
+      "activity_minutes",
+      "family_history",
+      "sleep_hours"
+    ],
+    "target": "simulated_risk_class",
+    "patients": 10,
+    "data_origin": "synthetic",
+    "clinical_validation": false,
+    "created_utc": "2026-10-15T20:04:03.891271+00:00",
+    "limitations": [
+      "no real-patient evaluation",
+      "no external site evaluation",
+      "no clinical operating threshold"
+    ]
+  }
+}
