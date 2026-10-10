@@ -1,0 +1,52 @@
+{
+  "model": "logistic",
+  "provenance": {
+    "data_sha256": "dc6a59b23183d8497ef2652a548bfc039346c9e7e180ee9a0f593899957a6dea",
+    "seed": 42,
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "data_origin": "synthetic",
+    "clinical_validation": false
+  },
+  "validation": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "brier": 0.0001571837729896785,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "tp": 8,
+    "tn": 14,
+    "fp": 0,
+    "fn": 0,
+    "n": 22,
+    "threshold": 0.1
+  },
+  "test": {
+    "auroc": 1.0,
+    "average_precision": 1.0,
+    "brier": 0.0001242252593016035,
+    "balanced_accuracy": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "tp": 8,
+    "tn": 14,
+    "fp": 0,
+    "fn": 0,
+    "n": 22,
+    "threshold": 0.1
+  },
+  "split_sizes": {
+    "train": 66,
+    "validation": 22,
+    "test": 22
+  },
+  "signal_protocol": {
+    "window_seconds": 4,
+    "stride_seconds": 2,
+    "patients": 10,
+    "unit": "window",
+    "origin": "simulated raw IMU recordings"
+  }
+}
